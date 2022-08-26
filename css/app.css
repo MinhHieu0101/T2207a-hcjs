@@ -1,0 +1,17 @@
+h1{
+    color: #008b4f;
+}
+p{
+    color: #170101;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 25px;
+    text-decoration: none;
+    text-align:justify;
+    text-transfrom:uppercase;
+    font-style: italic;
+    background-color:red;
+    width:500px
+
+}
