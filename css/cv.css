@@ -1,0 +1,33 @@
+
+body{
+    text-align: justify;
+    width: 600px;
+    margin: 6px auto;
+}
+h3 {
+
+    font-weight: 600;
+}
+p{
+
+    font-weight: 400;
+}
+h4{
+
+    font-weight: 600;
+}
+h5{
+
+    font-weight: 550;
+}
+img{
+    max-width: 22%;
+}
+figure{
+    text-align: right;
+}
+div{
+    float: left;
+    margin: -5px ;
+    box-sizing: border-box;
+}
