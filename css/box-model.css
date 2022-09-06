@@ -1,0 +1,57 @@
+div{
+    width: calc(25% - 30px);
+
+    float: left;
+    border: 1px solid red;
+
+     margin: 10px 15px;
+
+    padding:10px 15px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px red;
+    border-radius:6px ;
+   transition:all 300ms;
+}
+div:hover{
+    transform: rotate(5deg);
+
+}
+img{
+   max-width: 100%;
+}
+
+#box{
+    background-color: blueviolet;
+}
+.box-orange{
+    background-color: orange;
+}
+.box-special{
+    color: #008b4f;
+    background-color: brown;
+}
+/*danh sách ưu tiên */
+body .dp #pid{
+    color: blueviolet;
+}
+#pid{
+    color: black;
+}
+.dp .pc{
+    color: darkgreen;
+}
+div .pc{
+    color: orange;
+}
+.pc{
+    color: deeppink;
+}
+body div p{
+    color: chartreuse;
+}
+div p {
+    color: aqua;
+}
+p{
+    color: rebeccapurple;
+}

@@ -26,3 +26,11 @@ p2{
     text-align: left;
 
 }
+body{
+    text-align: center;
+    width: 650px;
+    margin: 6px auto;
+}
+p{
+    text-align: center;
+}
