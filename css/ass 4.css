@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url("https://scontent.fhan19-1.fna.fbcdn.net/v/t1.15752-9/305861621_630464118794436_5912984414371066858_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_ohc=kCmPmyQvO8QAX8jDy64&_nc_ht=scontent.fhan19-1.fna&oh=03_AVJ0aqtAtrV9zvNmVNvasjWaSB2GnCjL9jjXX_ieK-OClA&oe=63464872") ;
+    background-position:center ;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    background-color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    height: 70px;
+}
