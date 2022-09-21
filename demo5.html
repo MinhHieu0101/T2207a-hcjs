@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Danh sách menu</title>
+</head>
+<body>
+<ul id="menu">
+</ul>
+<script type="text/javascript">
+function getmenu(){
+    var xhttp=new XMLHttpRequest();
+    xhttp.onload = function () {
+        var data = JSON.parse(this.responseText);
+        var ls = data.data;
+        for (var i = 0; i < ls.length; i++) {
+            //1 object
+            var li_html = `<li><img width="100" src="${ls[i].icon}"/>${ls[i].name}</li>`;
+            var menu = document.getElementById("menu");
+            menu.innerHTML += li_html;
+        }
+    }
+    var url="https://foodgroup.herokuapp.com/api/menu";
+    xhttp.open("GET",url,true);
+    xhttp.send();
+}
+
+getmenu();
+</script>
+</body>
+</html>
