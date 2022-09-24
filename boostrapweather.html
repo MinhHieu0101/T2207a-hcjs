@@ -21,16 +21,15 @@
      var sd = data.list;
      for(var i=0; i<sd.length;i++){
          var li_html=` <div class="col-3">
-        <div class="card mb-3" >
+        <div class="card mb-3 mt-1" >
   <div class="card-body">
     <p class="card-text">${sd[i].dt_txt}</p>
-      <img src=" http://openweathermap.org/img/wn/${sd[i].weather[0].icon}@2x.png"  alt="100">
+      <img src=" http://openweathermap.org/img/wn/${sd[i].weather[0].icon}@2x.png"  alt="">
     <h5 class="card-title">${sd[i].main.temp}</h5>
     <p class="dubao">${sd[i].weather[0].description}</p>
   </div>
 </div>
-
-            </div>`;
+</div>`;
          var ds=document.getElementById("sd");
          ds.innerHTML += li_html;
      }
